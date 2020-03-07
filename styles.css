@@ -1,0 +1,19 @@
+#game-board{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    
+}
+#canvas{
+    border: 1px solid red;  
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center; 
+    
+    margin-bottom: 50px;
+}
