@@ -1,0 +1,31 @@
+#canvas {
+  /* width: 100%; */
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+
+  /* margin-bottom: 50px; */
+}
+
+h1 {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("images/stars.png"), url("images/l1_background.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+}
